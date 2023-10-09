@@ -5,7 +5,8 @@
 /**
  * main - Entry point
  *
- * Description: This program generates a random number and prints the last digit
+ * Description: This program generates a random
+   number and prints the last digit
  * of the number along with some conditions.
  *
  * Return: Always 0 (Success)
@@ -20,7 +21,8 @@ int main(void)
 
 	lastDigit = n % 10;
 
-	printf("Last digit of %d is %d and is ", n, lastDigit);
+	printf("Last digit of %d is %d and is ", n,
+	       lastDigit);
 
 	if (lastDigit > 5)
 	{
